@@ -127,7 +127,7 @@ grid {
 }
 
 .project img {
-    width: 100%;
+    width: 80%;
     border-radius: 6px;
     cursor: pointer;
     transition: 0.3s;

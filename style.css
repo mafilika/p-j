@@ -102,6 +102,24 @@ nav a:hover{
     margin:0 auto 20px auto;
 }
 
+grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+}
+
+.card {
+    background: white;
+    padding: 25px;
+    border-radius: 6px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.card h3 {
+    color: #C8A951;
+    margin-bottom: 15px;
+}
+
 /* FOOTER */
 footer{
     background:var(--primary);

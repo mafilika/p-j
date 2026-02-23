@@ -20,6 +20,12 @@ body{
     --grey:#e5e5e5;
 }
 
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
 /* HEADER */
 header{
     background:var(--primary);

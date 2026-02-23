@@ -1,0 +1,124 @@
+/* RESET */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+    text-align:center;
+}
+
+body{
+    background:#f4f4f4;
+    color:#222;
+}
+
+/* BRAND COLORS */
+:root{
+    --primary:#0B1F3A;      /* Navy */
+    --secondary:#C8A951;    /* Gold */
+    --light:#ffffff;
+    --grey:#e5e5e5;
+}
+
+/* HEADER */
+header{
+    background:var(--primary);
+    padding:20px 0;
+}
+
+header h1{
+    color:var(--secondary);
+    font-size:28px;
+    letter-spacing:2px;
+}
+
+nav{
+    margin-top:10px;
+}
+
+nav a{
+    color:var(--light);
+    text-decoration:none;
+    margin:0 15px;
+    font-weight:500;
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:var(--secondary);
+}
+
+/* HERO */
+.hero{
+    height:90vh;
+    background:linear-gradient(rgba(11,31,58,0.8), rgba(11,31,58,0.8)),
+    url('https://images.unsplash.com/photo-1503387762-592deb58ef4e') center/cover no-repeat;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    color:white;
+}
+
+.hero h2{
+    font-size:42px;
+    margin-bottom:20px;
+}
+
+.hero p{
+    max-width:600px;
+    margin-bottom:30px;
+}
+
+.btn{
+    background:var(--secondary);
+    color:var(--primary);
+    padding:12px 25px;
+    text-decoration:none;
+    font-weight:bold;
+    border-radius:4px;
+    margin:5px;
+    display:inline-block;
+    transition:0.3s;
+}
+
+.btn:hover{
+    background:#b8963f;
+}
+
+/* SECTION */
+.section{
+    padding:70px 20px;
+}
+
+.section h2{
+    font-size:32px;
+    margin-bottom:20px;
+    color:var(--primary);
+}
+
+.section p{
+    max-width:700px;
+    margin:0 auto 20px auto;
+}
+
+/* FOOTER */
+footer{
+    background:var(--primary);
+    color:white;
+    padding:20px;
+}
+
+/* WHATSAPP FLOAT */
+.whatsapp{
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    background:#25D366;
+    color:white;
+    padding:15px 18px;
+    border-radius:50%;
+    font-size:22px;
+    text-decoration:none;
+    box-shadow:0 4px 10px rgba(0,0,0,0.3);
+}

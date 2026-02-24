@@ -57,7 +57,6 @@ nav a:hover{
 /* HERO */
 .hero{
     height:90vh;
-    background:
     url('https://images.ctfassets.net/09muo917z9ra/6yNFyOCe5DRKOQcwqm6SsX/5027af0af7cd0be30246251728ebe9c1/IMG-20260224-WA0022.jpg') center/cover no-repeat;
     display:flex;
     flex-direction:column;
